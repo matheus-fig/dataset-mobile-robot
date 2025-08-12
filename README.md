@@ -43,8 +43,8 @@ The dataset includes labeled records with relevant fields from TCP/IP and MQTT l
 | `mqtt.msg`              | Raw MQTT payload, often in JSON format with sensor readings or control messages. |
 | `mqtt.qos`              | Quality of Service (QoS) level for the MQTT message (0, 1, or 2). |
 | `mqtt.msgid`            | MQTT message identifier (only present for QoS > 0). |
-| `velocidade`            | Extracted from the MQTT payload, represents speed (units depend on context, usually km/h). |
-| `angulo`                | Extracted from the MQTT payload, represents angle or steering position (degrees). |
+| `velocidade`            | Extracted from the MQTT payload, represents speed. |
+| `angulo`                | Extracted from the MQTT payload, represents angle (degrees). |
 | `vbat`                  | Extracted from the MQTT payload, represents battery voltage. |
 | `attack_label`          | Final classification: `'legitimate'` for benign traffic, or attack type (`'dos'`, `'malformed'`, `'falsedata'`). |
 
